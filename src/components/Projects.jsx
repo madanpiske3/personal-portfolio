@@ -16,10 +16,10 @@ const Projects = () => {
     animate(buttonsRef.current[index], {opacity: 1, scale: 1.2})
   }
 
-  useEffect(() => {
-    handleClick()
-    prevIndex.current = index
-  }, [index])
+      useEffect(() => {
+        handleClick()
+        prevIndex.current = index
+      }, [index])
 
   return (
     <div id='projects' className='min-h-screen py-20 px-40 dark:bg-zinc-800 bg-[#FAFAFA]'>
@@ -29,8 +29,6 @@ const Projects = () => {
             {projectsButton.map((text, i) => (
               <motion.button className='border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400 dark:text-slate-100' 
               key={i}
-              // initial={{opacity: i === 0 ? 1 : 0,
-              // initial={{opacity: 1,
               initial = {{ opacity: i === 0 ? 1 : 0.5,
               scale: i === 0 ? 1.2 : 1            
               }}
@@ -62,3 +60,6 @@ const Projects = () => {
 }
 
 export default Projects
+
+             // initial={{opacity: i === 0 ? 1 : 0,
+              // initial={{opacity: 1,
