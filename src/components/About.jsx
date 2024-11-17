@@ -12,7 +12,7 @@ const About = () => {
         //     <Heading text={"About me"} />
         //     <div className="w-full flex items-center justify-between md:justify-center">
                 
-    <div id="about" className="flex flex-col min-h-screen justify-center px-40 md:bg-teal-400 bg-rose-200 dark:bg-zinc-800">
+    <div id="about" className="flex flex-col min-h-screen justify-center px-40 md:bg-teal-400 bg-[#FAFAFA] dark:bg-zinc-800">
         <div className="flex-shrink-0 ml-0 mt-0">
             <Heading text={'About me'}/>
         </div>    

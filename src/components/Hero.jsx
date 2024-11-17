@@ -47,7 +47,7 @@ const Hero = () => {
 
       <div 
         id="home"
-        className="h-screen grid place-items-center dark:bg-zinc-800" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
+        className="h-screen grid place-items-center bg-[#FAFAFA] dark:bg-zinc-800" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
             <div>
               <motion.div initial={{ opacity:0, y: -100 }} animate={{ opacity: 100, y: 0 }} transition={{ delay: 0.5 }} className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                 <motion.div className="flex items-center justify-center" 
