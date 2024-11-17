@@ -7,7 +7,7 @@ const Contact = () => {
     
 
   return (
-    <div id='contact' className="min-h-screen py-20 px-40 bg-fuchsia-300 lg:bg-amber-200 dark:bg-zinc-800">
+    <div id='contact' className="min-h-screen py-20 px-40 bg-[#FAFAFA] lg:bg-amber-200 dark:bg-zinc-800">
         <Heading text={'Get in touch'} />
         {/* justify-between */}
         <div className="w-full h-full my-auto flex lg:flex-col items-center justify-center lg:justify-center gap-x-20 lg:gap-x-0 gap-y-20 rounded-md ">
