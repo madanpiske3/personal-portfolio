@@ -5,16 +5,25 @@ import { motion } from 'framer-motion'
 const Project = ({data, index}) => {
   const [show, setShow] = useState(false)
 
+  const handleLinkClick = () => {
+    
+    window.open(data.link, '_blank', 'noopener,noreferrer');
+    // window.open('https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: index % 2 === 0 ? 100 : -100 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{once: true}}
       transition={{ duration: 1, type: 'spring', stiffness: 100 }}
-      onClick={() => setShow((show) => !show)}
+      // onClick={() => setShow((show) => !show)}
+      onClick={handleLinkClick}
+      onMouseEnter={() => setShow(true)}
+      onMouseLeave={() => setShow(false)}
       className='relative w-[350px] sm:w-full h-max border border-yellow-400 rounded-lg cursor-pointer'
       >
-        <Image src={data.url} alt='Project IMG' width={400} height={400} className='rounded-lg opacity-85' />
+        <Image src={data.url} alt='Project IMG' width={400} height={400} className='rounded-lg opacity-95' />
         <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: show ? 1 : 0 }}
@@ -27,3 +36,5 @@ const Project = ({data, index}) => {
 }
 
 export default Project
+
+// opacity-85
