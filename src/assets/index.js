@@ -247,7 +247,7 @@ export const projectsData = [
   },
   {
     name: 'Farmer Eats',
-    desc: ' A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.',
+    desc: 'A React native mobile application which contains 8 screens Welcome, Login, Register, Forgot password, Business hours, Forgot password, verify OTP ans so on...',
     // url: '/projects/im-3.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-3.png',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -255,7 +255,7 @@ export const projectsData = [
   },
   {
     name: 'Furnitures app',
-    desc: 'A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.',
+    desc: 'A React Native mobile application demonstrating to book furnitures and home decor products and also implemented user auth, Home page, saved products, profile screen, and settings and reusable components and search box.',
     // url: '/projects/im-4.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-4.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -263,7 +263,7 @@ export const projectsData = [
   },
   {
     name: 'Pop rock crystal',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A React application developed using reusable components cards, and a background curves.',
     // url: '/projects/im-5.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-5.PNG',
     link: 'https://pop-rock-crystal-shop1.netlify.app/',
@@ -271,18 +271,18 @@ export const projectsData = [
   },
   {
     name: 'Travels 6',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'An image animation to look like air ballon flying.',
     // url: '/projects/im-6.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-6.PNG',
-    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+    link: 'https://travel-godcodeds-projects-19c4b414.vercel.app/',
     tech: ['NextJS', 'ThreeJS'],
   },
   {
     name: 'Creative Design curves',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Implemented using circular divs and animation.',
     // url: '/projects/im-7.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-7.PNG',
-    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+    link: 'https://creative-design-godcodeds-projects-19c4b414.vercel.app/',
     tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
   },
   // {
@@ -325,10 +325,10 @@ export const projectsData = [
   // },
   {
     name: 'Architecture 5',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'An architecture web app developed using HTML, CSS, JS.',
     // url: '/projects/im-8.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-8.PNG',
-    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+    link: 'https://architecture-godcodeds-projects-19c4b414.vercel.app/',
     tech: ['NextJS', 'ThreeJS'],
   },
 
@@ -340,7 +340,7 @@ export const projectsData = [
   // },
   {
     name: 'Form Input waves 50 50',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Form input waves using HTML, CSS, JS.',
     // url: '/projects/im-9.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-9.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -348,20 +348,20 @@ export const projectsData = [
   },
   {
     name: 'Dad Jokes',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Random Jokes using DadJOke API implemented using HTML, CSS, JS',
     // url: '/projects/im-10.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-10.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
     tech: ['NextJS', 'ThreeJS'],
   },
-  {
-    name: 'Master Card Dark Mode',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-    // url: '/projects/im-11.png',
-    url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-11.PNG',
-    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
-    tech: ['NextJS', 'ThreeJS'],
-  },
+  // {
+  //   name: 'Master Card Dark Mode',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   // url: '/projects/im-11.png',
+  //   url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-11.PNG',
+  //   link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+  //   tech: ['NextJS', 'ThreeJS'],
+  // },
   // {
   //   name: 'Auto Text Effect',
   //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
@@ -370,7 +370,7 @@ export const projectsData = [
   // },
   {
     name: 'Testimonial-box-switcher',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A reusable testimonial box switcher developed using HTML, CSS, JS',
     // url: '/projects/im-12.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/img-12.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -378,7 +378,7 @@ export const projectsData = [
   },
   {
     name: 'Double Vertical Slider',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Double Vertical Slider developed using HTML, CSS, JS.',
     // url: '/projects/im-13.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-13.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -386,7 +386,7 @@ export const projectsData = [
   },
   {
     name: 'Split landing page',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Spliting landing page .',
     // url: '/projects/im-14.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-14.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -406,7 +406,7 @@ export const projectsData = [
   // },
   {
     name: 'Scroll Animation',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Scroll animation of components while loading implemented using HTML, CSS, JS',
     // url: '/projects/im-15.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-15.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -425,8 +425,8 @@ export const projectsData = [
   //   tech: ['NextJS', 'ThreeJS'],
   // },
   {
-    name: 'RANDOM chOICE pIKCER TEXT',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    name: 'Random Choice Picker',
+    desc: 'Text spliting using comma and picking random text among them using HTML, CSS, JS',
     // url: '/projects/im-16.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-16.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -434,7 +434,7 @@ export const projectsData = [
   },
   {
     name: 'Quiz app',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A Simple Quiz web application.',
     // url: '/projects/im-17.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-17.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -442,7 +442,7 @@ export const projectsData = [
   },
   {
     name: 'Progress Steps',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Progress Steps (Click to view demo)',
     // url: '/projects/im-18.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-18.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -450,7 +450,7 @@ export const projectsData = [
   },
   {
     name: 'Pokedex',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A image and name card developed using HTML, CSS, JS',
     // url: '/projects/im-19.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-19.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -458,7 +458,7 @@ export const projectsData = [
   },
   {
     name: 'Image Password Strength',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'Opacity of image has be set on the basis of strength of password & developed using HTML, CSS, JS',
     // url: '/projects/im-20.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-20.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -473,7 +473,7 @@ export const projectsData = [
   // },
   {
     name: 'Notes app',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A Notes card, with edit and delete features implemented using HTML, CSS, JS',
     // url: '/projects/im-21.png'/
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-21.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -481,7 +481,7 @@ export const projectsData = [
   },
   {
     name: 'Netflix Mobile Navigation',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'A Netflix Navigation using HTML, CSS, JS',
     // url: '/projects/im-22.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-22.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
@@ -489,7 +489,7 @@ export const projectsData = [
   },
   {
     name: 'Expanding Cards',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    desc: 'An Expanding cards web application.',
     // url: '/projects/im-23.png',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-23.PNG',
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
