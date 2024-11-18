@@ -23,7 +23,8 @@ const Project = ({data, index}) => {
       onMouseLeave={() => setShow(false)}
       className='relative w-[350px] sm:w-full h-max border border-yellow-400 rounded-lg cursor-pointer'
       >
-        <Image src={data.url} alt='Project IMG' width={400} height={400} className='rounded-lg opacity-95' />
+        <img src={data.url} alt='Project IMG' width={400} height={400} className='rounded-lg opacity-95' />
+        {/* <Image src={data.url} alt='Project IMG' width={400} height={400} className='rounded-lg opacity-95' /> */}
         <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: show ? 1 : 0 }}
