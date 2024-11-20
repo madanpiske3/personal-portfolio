@@ -27,7 +27,7 @@ const About = () => {
                     <p className="text-lg font-light dark:text-slate-50 text-gray-700 first-letter:pl-3 lg:text-[16px] sm:text-[14px]">
                         {aboutText}
                     </p>
-                    <a href="/nick-cv.pdf" download="" className="w-max flex items-center gap-x-2 mt-6 bg-red-400 rounded-full border border-gray-300 px-3 py-2 font-light text-white hover:bg-red-600 transitions-colors">
+                    <a href="/Madan_Piske.pdf" download="" className="w-max flex items-center gap-x-2 mt-6 bg-red-400 rounded-full border border-gray-300 px-3 py-2 font-light text-white hover:bg-red-600 transitions-colors">
                         <span>Download CV</span>
                         <span className="text-xl " >{downloadIcon}</span>
                     </a>
