@@ -48,11 +48,11 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+    {/* <Framer /> */}
     </div>
     </Toggle>
     {/* </Load> */}
     </>
   )
 }
-{/* <Framer /> */}
 {/* <Questions /> */}

@@ -14,7 +14,8 @@ const Contact = () => {
             <motion.div
                 initial={{opacity: 0, y: 150}} whileInView={{opacity: 1, y: 0}} transition={{duration: .9}} viewport={{once: true}}
                 >
-                <Image src={'/contact.gif'} width={400} height={400} className="w-[400px]" alt="hui"/>
+                {/* <Image src={'/contact.gif'} width={400} height={400} className="w-[400px] dark:rounded-3xl" alt="Mee.png"/> */}
+                <Image src={'/contact-new.png'} width={400} height={400} className="w-[400px] " alt="Mee.png"/>
             </motion.div>
             <motion.form 
                     initial={{opacity: 0, x: 150}} 
@@ -29,7 +30,7 @@ const Contact = () => {
                 <input type='text' className="w-full border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none" placeholder="Subject"/>
 
                 <textarea className="max-h-[250px] min-h-[150px] border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"></textarea>
-                <input type='submit' className="w-full border border-yellow-600 px-4 py-2 text-sm font-light traacking-wider text-white outline-none bg-yellow-600 hover:bg-yellow-500 transition-colors cursor-pointer" value='Send Message'
+                <input type='submit' className="w-full border border-yellow-600 px-4 py-2 text-sm font-light traacking-wider text-white outline-none bg-yellow-600 hover:bg-yellow-500 transition-colors cursor-pointer rounded-3xl" value='Send Message'
                 />
             </motion.form>
         </div>

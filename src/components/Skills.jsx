@@ -38,7 +38,32 @@ const Skills = () => {
     <div id='skills' className='flex flex-col min-h-screen justify-center px-40 bg-[#FAFAFA] dark:bg-zinc-800'>
         <Heading text={'Skills'} />
 
-        <div className='w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
+        <div className='w-full flex justify-around flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
+            {skillsData.map((item, i) => (
+                <motion.div 
+                    custom={i}
+                    variants={variants}
+                    initial="hidden"
+                    whileInView='visible'
+                    whileHover={{ scale: 1.3 }}
+                    viewport={{ margin:'50px', once:true }}
+                    key={i}
+                    className='flex items-center justify-center dark:bg-zinc-400 bg-zinc-200 rounded-xl px-5 py-2 gap-x-3 border-yellow-400 lg:px-2 w-40'
+                 >
+                     <Image 
+                        src={item.icon}
+                        width={100}
+                        height={100}
+                        alt='h'
+                        className='h-auto w-[40px]'
+                     />
+
+                     <p className='text-sm dark:text-slate-100 text-gray-600'>{item.name}</p>
+                </motion.div>                
+            ))}
+        </div>
+
+        {/* <div className='w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
             {skillsData.map((item, i) => (
                 <motion.div 
                     custom={i}
@@ -61,7 +86,7 @@ const Skills = () => {
                      <p className='text-sm dark:text-slate-100 text-gray-600'>{item.name}</p>
                 </motion.div>                
             ))}
-        </div>
+        </div> */}
     </div>
   )
 }
