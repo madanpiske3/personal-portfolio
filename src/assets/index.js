@@ -27,7 +27,7 @@ import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 export const aboutData = [
   {
     title: 'Github Repos',
-    amount: 50,
+    amount: 45,
     icon: <GithubFillIcon />,
   },
   {
@@ -145,10 +145,10 @@ export const skillsData = [
     name: 'NextJS',
     icon: '/skills/nextjs.png',
   },
-  {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
-  },
+  // {
+  //   name: 'ThreeJS',
+  //   icon: '/skills/threejs.png',
+  // },
   {
     name: 'NodeJS',
     icon: '/skills/nodejs.png',
@@ -229,14 +229,7 @@ export const experienceData = [
 ]
 
 export const projectsData = [
-  {
-    name: 'CodeBook.com',
-    desc: 'E-commerce website for booking books, using Redux and React.',
-    // desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
-    url: 'https://raw.githubusercontent.com/madanpiske3/personal-portfolio/refs/heads/main/public/projects/im-1.PNG',
-    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
-    tech: ['ReactJS', 'Firebase', 'TailwindCSS'],
-  },
+
   {
     name: 'FilmFinder',
     desc: 'A film finder web app using React, Tailwind CSS, and MovieDB API to display latest, upcoming, top-rated movies and their IMDb ratings.',
@@ -244,6 +237,14 @@ export const projectsData = [
     link: 'https://films-finder-app.netlify.app/',
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-2.PNG',
     tech: ['TailwindCSS', 'ReactJS'],
+  },
+  {
+    name: 'Yakins website',
+    desc: 'A webiste built with HTML, CSS, Bootstrap and JavaScript & It is a responsive website.',
+    // url: '/projects/im-5.png',
+    url: 'https://raw.githubusercontent.com/madanpiske3/yavin-website/refs/heads/main/images/screen.png',
+    link: 'https://yavins-web.netlify.app/',
+    tech: ['HTML', 'Bootstrap', 'JavaScript'],
   },
   {
     name: 'Farmer Eats',
@@ -261,14 +262,17 @@ export const projectsData = [
     link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
     tech: ['React Native'],
   },
-  {
-    name: 'Pop rock crystal',
-    desc: 'A React application developed using reusable components cards, and a background curves.',
-    // url: '/projects/im-5.png',
-    url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-5.PNG',
-    link: 'https://pop-rock-crystal-shop1.netlify.app/',
-    tech: ['ReactJS', 'JavaScript', 'CSS'],
-  },
+  
+  // {
+  //   name: 'Yakins website',
+  //   desc: 'A Bootstrap based webiste.',
+  //   // url: '/projects/im-5.png',
+  //   url: 'https://raw.githubusercontent.com/madanpiske3/yavin-website/refs/heads/main/images/screen.png',
+  //   link: 'https://yavins-web.netlify.app/',
+  //   tech: ['HTML', 'Bootstrap', 'JavaScript'],
+  // },
+
+  
   {
     name: 'Travels 6',
     desc: 'An image animation to look like air ballon flying.',
@@ -284,6 +288,22 @@ export const projectsData = [
     url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-7.PNG',
     link: 'https://creative-design-godcodeds-projects-19c4b414.vercel.app/',
     tech: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Pop rock crystal',
+    desc: 'A React application developed using reusable components cards, and a background curves.',
+    // url: '/projects/im-5.png',
+    url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-5.PNG',
+    link: 'https://pop-rock-crystal-shop1.netlify.app/',
+    tech: ['ReactJS', 'JavaScript', 'CSS'],
+  },
+  {
+    name: 'CodeBook.com',
+    desc: 'E-commerce website for booking books, using Redux and React.',
+    // desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
+    url: 'https://raw.githubusercontent.com/madanpiske3/personal-portfolio/refs/heads/main/public/projects/im-1.PNG',
+    link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+    tech: ['ReactJS', 'Firebase', 'TailwindCSS'],
   },
   // {
   //   name: 'Shopmate app',
@@ -392,18 +412,6 @@ export const projectsData = [
     link: 'https://split-landing-pages.netlify.app/',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-  // {
-  //   name: 'Sound Board',
-  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-  //   url: '/projects/image-10.jpg',
-  //   tech: ['NextJS', 'ThreeJS'],
-  // },
-  // {
-  //   name: 'Bagavat gita Sound Board',
-  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-  //   url: '/projects/image-10.jpg',
-  //   tech: ['NextJS', 'ThreeJS'],
-  // },
   {
     name: 'Scroll Animation',
     desc: 'Scroll animation of components while loading implemented using HTML, CSS, JS',
@@ -412,18 +420,7 @@ export const projectsData = [
     link: 'https://scroll-animation-three-coral.vercel.app/',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-  // {
-  //   name: 'Rotating Navigation',
-  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-  //   url: '/projects/',
-  //   tech: ['NextJS', 'ThreeJS'],
-  //},
-  // {
-  //   name: 'Framer motion',
-  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-  //   url: '/projects/image-10.jpg',
-  //   tech: ['NextJS', 'ThreeJS'],
-  // },
+
   {
     name: 'Random Choice Picker',
     desc: 'Text spliting using comma and picking random text among them using HTML, CSS, JS',
@@ -440,14 +437,7 @@ export const projectsData = [
     link: 'https://quiz-app-seven-jade.vercel.app/',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-  // {
-  //   name: 'Progress Steps',
-  //   desc: 'Progress Steps (Click to view demo)',
-  //   // url: '/projects/im-18.png',
-  //   url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-18.PNG',
-  //   link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  // },
+
   {
     name: 'Pokedex',
     desc: 'A image and name card developed using HTML, CSS, JS',
@@ -464,13 +454,7 @@ export const projectsData = [
     link: 'https://image-pass-strength-3wh5.vercel.app/',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
-  // {
-  //   name: 'Password Generator',
-  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-  //   url: '/projects/img-21.png',
-  //   link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  // },
+
   {
     name: 'Notes app',
     desc: 'A Notes card, with edit and delete features implemented using HTML, CSS, JS',
@@ -497,6 +481,48 @@ export const projectsData = [
   },
 ]
 
+  // {
+  //   name: 'Sound Board',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   url: '/projects/image-10.jpg',
+  //   tech: ['NextJS', 'ThreeJS'],
+  // },
+  // {
+  //   name: 'Bagavat gita Sound Board',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   url: '/projects/image-10.jpg',
+  //   tech: ['NextJS', 'ThreeJS'],
+  // },
+  // {
+  //   name: 'Rotating Navigation',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   url: '/projects/',
+  //   tech: ['NextJS', 'ThreeJS'],
+  //},
+  // {
+  //   name: 'Framer motion',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   url: '/projects/image-10.jpg',
+  //   tech: ['NextJS', 'ThreeJS'],
+  // },
+  // {
+  //   name: 'Progress Steps',
+  //   desc: 'Progress Steps (Click to view demo)',
+  //   // url: '/projects/im-18.png',
+  //   url: 'https://raw.githubusercontent.com/madanpiske3/assets/refs/heads/main/im-18.PNG',
+  //   link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  // },
+
+  // {
+  //   name: 'Password Generator',
+  //   desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+  //   url: '/projects/img-21.png',
+  //   link: 'https://drive.google.com/file/d/1-lVDz2V4s2hwxwxiwtrgLmqy-UzXDulu/view',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  // },
+
+
 export const projectsButton = [
   'All',
   // 'Figma'
@@ -508,7 +534,6 @@ export const projectsButton = [
   'ReactJS',
   'React Native',
   'TailwindCSS',
-  'NextJS',
   'Python',
   // 'FramerMotion',
   'Bootstrap',
@@ -567,11 +592,11 @@ export const navbarData = [
     name: 'Contact',
     icon: <ContactsBook2LineIcon />,
   },
-  {
-    id: 'questions',
-    name: 'Questions',
-    icon: <QuestionAnswerLineIcon />,
-  },
+  // {
+  //   id: 'questions',
+  //   name: 'Questions',
+  //   icon: <QuestionAnswerLineIcon />,
+  // },
 ]
 
 export const questions = [

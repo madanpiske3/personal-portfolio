@@ -89,8 +89,10 @@ const Hero = () => {
                 {/* 💪🏻😊🤗 */}
               </motion.div>
                 <motion.div initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}} transition={{delay: 0.5}} className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-500">
-                  {heroIcons.map((icon, i) => (
-                    <a href="#" key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                {heroIcons.map((icon, i) => (
+                    <a href={(i === 4) ? "https://github.com/madanpiske3" :
+                    (i === 2) ? "#" :
+                        (i === 1) ? "https://leetcode.com/u/madanpiske1729/" : "https://leetcode.com/u/madanpiske1729/"} key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
                       {icon}
                     </a>
 
@@ -112,7 +114,7 @@ const Hero = () => {
 
 export default Hero
 
-
+// i === !4 || 2 ? (i === 2 ? '#' : 'https://leetcode.com/u/madanpiske1729/') :"https://github.com/madanpiske3"}
 {/* <span className="text-center text-3xl font-bold tracking-wider text-gray-500 inline">My name is Madan Piske
                 <motion.div
                   className="w-0.5 h-6 bg-black ml-0.5"
@@ -127,9 +129,35 @@ export default Hero
                 />
                 </span> */}
 
+                // (
+                //   if (i === 0 || i === 1 || i === 3)
+                //   {
+                //     <a href="https://github.com/madanpiske3" key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                //         {icon}
+                //       </a> 
+                //   }
+                //   else if (i === 2) {
+                //     <a href="#" key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                //         {icon}
+                //       </a>
+                //   }
+                //   else {
+                //     <a href="https://github.com/madanpiske3" key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                //         {icon}
+                //       </a>
+                //   }
+                // )}
+                // {heroIcons.map((icon, i) =>{
+                //   <a href="https://github.com/madanpiske3" key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                //         {icon}
+                //       </a>                     
+                //     // <a href='#' key={i} className="hover:bg-red-400 rounded-full hover:text-white transition-colors">
+                //     //   {icon}
+                //     // </a>
+                //   })}
 
 
-
+                    
 
 
 

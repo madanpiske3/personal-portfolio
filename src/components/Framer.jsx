@@ -773,7 +773,8 @@ const Framer = () => {
 
   return (
     <div className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-8">Framer Motion Examples</h1>
+      <h1 className="text-lg font-bold mb-8">Framer Motion reusable components </h1>
+      <h1 className="text-lg font-bold mb-8">i built while learning </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {examples.map((example, index) => (

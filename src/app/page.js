@@ -4,10 +4,10 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Framer from "@/components/Framer";
+// import Framer from "@/components/Framer";
 import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
-import Questions from "@/components/Questions";
+// import Questions from "@/components/Questions";
 import { useState, useRef, useEffect } from "react";
 import Toggle from "@/components/sub/Toggle";
 import Load from "@/components/sub/Load";
@@ -48,11 +48,11 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <Questions />
-      <Framer />
     </div>
     </Toggle>
     {/* </Load> */}
     </>
   )
 }
+{/* <Framer /> */}
+{/* <Questions /> */}
