@@ -7,15 +7,15 @@ const Contact = () => {
     
 
   return (
-    <div id='contact' className="min-h-screen py-20 px-40 bg-[#FAFAFA] lg:bg-amber-200 dark:bg-zinc-800">
+    <div id='contact' className="min-h-screen md:w-full py-20 px-40 md:px-0 bg-[#FAFAFA] dark:bg-zinc-800">
         <Heading text={'Get in touch'} />
         {/* justify-between */}
-        <div className="w-full h-full my-auto flex lg:flex-col items-center justify-center lg:justify-center gap-x-20 lg:gap-x-0 gap-y-20 rounded-md ">
+        <div className="w-full h-full my-auto flex lg:flex-col items-center justify-center lg:justify-center md:gap-x-0 md:ml-0 gap-x-20 lg:gap-x-0 gap-y-20 rounded-md ">
             <motion.div
                 initial={{opacity: 0, y: 150}} whileInView={{opacity: 1, y: 0}} transition={{duration: .9}} viewport={{once: true}}
                 >
                 {/* <Image src={'/contact.gif'} width={400} height={400} className="w-[400px] dark:rounded-3xl" alt="Mee.png"/> */}
-                <Image src={'/contact-new.png'} width={400} height={400} className="w-[400px] " alt="Mee.png"/>
+                <Image src={'/contact-new.png'} width={400} height={400} className="w-[400px] md:hidden" alt="Mee.png"/>
             </motion.div>
             <motion.form 
                     initial={{opacity: 0, x: 150}} 

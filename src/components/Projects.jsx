@@ -22,10 +22,10 @@ const Projects = () => {
       }, [index])
 
   return (
-    <div id='projects' className='min-h-screen py-20 px-40 dark:bg-zinc-800 bg-[#FAFAFA]'>
+    <div id='projects' className='min-h-screen py-20 px-40 md:px-0 dark:bg-zinc-800 bg-[#FAFAFA] md:w-full'>
         <Heading text={'Projects'} />
 
-          <div className='flex flex-wrap items-center justify-between gap-4 py-10'>
+          <div className='flex flex-wrap items-center justify-between gap-4 py-10 md:py-1 md:gap-1 md:mb-5 md:max-w-full'>
             {projectsButton.map((text, i) => (
               <motion.button className='border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400 dark:text-slate-100' 
               key={i}

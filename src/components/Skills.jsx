@@ -35,7 +35,7 @@ const Skills = () => {
 
   return (
     // <div className='min-h-screen flex flex-col items-center justify-center gap-y-20'>
-    <div id='skills' className='flex flex-col min-h-screen justify-center px-40 bg-[#FAFAFA] dark:bg-zinc-800'>
+    <div id='skills' className='flex flex-col min-h-screen justify-center px-40 md:px-0 bg-[#FAFAFA] dark:bg-zinc-800'>
         <Heading text={'Skills'} />
 
         <div className='w-full flex justify-around flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
